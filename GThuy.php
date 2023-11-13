@@ -1,6 +1,6 @@
 
     <!--
-     Câu 1: 5
+    Câu 1: 5
     Câu 2: D
     Câu 3: D
     Câu 4: A
@@ -20,6 +20,12 @@ function isPrime($number) {
         }
     }
     return true;
+}
+$number = 7;
+if (isPrime($number)) {
+    echo $number . ' là số nguyên tố.' . "<br>";
+} else {
+    echo $number . ' không là số nguyên tố.' . "<br>";
 }
 echo "Danh sách số nguyên tố từ 1 đến 100 là: ";
 for ($i = 1; $i <= 100; $i++) {
